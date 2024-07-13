@@ -3,7 +3,7 @@
     "version": 2,
     "builds": [
         {
-            "src": "./haszap.py",
+            "src": "haszap.py",
             "use": "@vercel/python"
 
         }
