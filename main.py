@@ -18,7 +18,7 @@ import flet as ft
 # funcão principal 
 def main(pagina):
     # criar o titulo
-    titulo = ft.Text("HashZap")
+    titulo = ft.Text("School - Chat")
 
     def enviar_mensagem_tunel(mensagem):
         chat.controls.append(ft.Text(mensagem))
@@ -26,7 +26,7 @@ def main(pagina):
         
     pagina.pubsub.subscribe(enviar_mensagem_tunel) # cria o tunel de comunicação
 
-    titulo_janela = ft.Text("Bem vindo ao HashZap!")
+    titulo_janela = ft.Text("Bem vindo ao School Chat!")
     campo_nome_usuario = ft.TextField(label="Escreva seu nome no Chat")
     
 
