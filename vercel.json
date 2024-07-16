@@ -2,7 +2,7 @@
 
     "version": 2,
     
-    "rewrites": [{ "source": "/(.*)", "destination": "/haszap.py" }] 
+    "rewrites": [{ "source": "/(.*)", "destination": "/hashzap.py" }] 
 
 
 }
