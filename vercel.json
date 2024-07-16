@@ -1,2 +1,2 @@
 
-{ "rewrites": [{ "source": "/(.*)", "destination": "/hashzap.py" }] }
+{ "rewrites": [{ "source": "/(.*)", "destination": "/" }] }
