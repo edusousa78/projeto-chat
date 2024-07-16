@@ -1,1 +1,1 @@
-web:  web: gunicorn hashzap:app
+web: flet main.py
